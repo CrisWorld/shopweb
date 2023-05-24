@@ -1,0 +1,127 @@
+.heading{
+    display: block;
+    margin-bottom: 13px;
+}
+.heading .grid1{
+    display: grid;
+    grid-template-columns: 20% 60% 10% 10%;
+    gap: 2px;
+}
+.grid1 .item{
+    background-color: white;
+    height: 100%;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 80%;
+}
+.item2{
+    display: block;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.item2 .phonenumber{
+    float: left;
+}
+.item2 .social{
+    float: right;
+}
+.heading2 .grid2
+{
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    text-align: center;
+}
+.newitem{
+    background-color: white;
+    height: 147px;
+    padding: 0;
+}
+.likedlist{
+    background-color: white;
+}
+.categories{
+    display: flex;
+    margin: 45px;
+    margin-left: 10%;
+}
+.heading3 .grid{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: auto auto;
+    background-color: white;
+    text-align: center;
+    margin: 0;
+}
+.photo{
+    position: relative;
+    transition: width 2s;
+    opacity: 4;
+    visibility: visible;
+    width: 400px;
+    height: 450px;
+    margin: 0;
+}
+/* MENU  */
+.menu{
+    background-color: black;
+    display: flex;
+}
+.menu .item:hover{
+    background-color: #696969;
+}
+.list{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+}
+.list .item{
+    padding-top: 20px;
+    padding-bottom: 20px ;
+    padding-left: 70px;
+    padding-right: 70px;
+    background-color: black;
+    color: white;
+    border: #696969 0.01px;
+    border-style: none solid none solid;
+}
+/* Danh sách ALL DEPARTMENT */
+.menu .list .item a{
+    color: white;
+    text-decoration: none;
+}
+.list .item .drop{
+    position: absolute;
+    z-index: 1;
+    display: none;
+    background-color: white;
+}
+.list .item .drop a{
+    color: black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 120px;
+    padding-right: 120px;
+    text-align: center;
+    display: block;
+}
+.list .item.drop:hover .drop{
+    display: block;
+    margin-top: 20.3px;
+}
+.list .item.drop:hover .drop a:hover{
+    background-color: #696969;
+}
+/* Sản phẩm */
+.title{
+    font-size: 12px;
+    font-family: Arial;
+    color: #696969;
+}
+.price{
+    color: #F2D21E;
+}
+.photo:hover{
+    width: 430px;
+}
+.photo:vi
