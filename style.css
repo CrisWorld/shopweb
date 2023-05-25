@@ -1,6 +1,7 @@
 .heading{
     display: block;
     margin-bottom: 13px;
+    margin-top: 0;
 }
 .heading .grid1{
     display: grid;
@@ -44,6 +45,12 @@
     margin: 45px;
     margin-left: 10%;
 }
+.heading3{
+    display: block;
+    margin-top: 17%;
+    padding-bottom: 70px;
+    background: white;
+}
 .heading3 .grid{
     display: grid;
     grid-template-columns: 33% 33% 33%;
@@ -54,7 +61,7 @@
 }
 .photo{
     position: relative;
-    transition: width 2s;
+    transition: width 1s;
     opacity: 4;
     visibility: visible;
     width: 400px;
@@ -120,8 +127,67 @@
 }
 .price{
     color: #F2D21E;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+.total .price{
+    border-top: 2px solid #696969;
+    text-align: center;
 }
 .photo:hover{
     width: 430px;
 }
-.photo:vi
+.child-cart{
+    width: auto;
+    height: auto;
+    right: 0;
+    text-align: center;
+    position: absolute;
+    z-index: 2;
+    background-color: white;
+    padding: 20px;
+    display: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 23px;
+    font-style: normal;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.child-cart .item{
+    margin: 30px;
+}
+.cart:hover .child-cart{
+    display: block;
+}
+/* Footer */
+.footer .logo{
+    margin-left: 20px;
+}
+.footer2{
+    background-color: white;
+    padding-left: 40px;
+    display: flex;
+}
+.footer2 .logo{
+    width: 200px;
+}
+.footer2 .info{
+    margin: 60px;
+    margin-left: 80px;
+}
+.word{
+    text-decoration: none;
+    color: #696969;
+}
+.info .input{
+    height: 60px;
+    outline: none;
+    border: none;
+    background-color: whitesmoke;
+}
+.input.box{
+    padding-left: 20px;
+}
+.input.button{
+    background-color: #F2D21E;
+    height: 70;
+}
